@@ -1,0 +1,69 @@
+.postsContainer .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(114, 29, 114);
+}
+.postsContainer .header h1{
+   color:white;
+   margin-left:50px ;
+}
+.postsContainer .header ul{
+    display: flex;
+    list-style: none;
+}
+.postsContainer .header ul li{
+    padding-left: 30px;
+}
+.postsContainer .postsBody{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.postsContainer .postsBody .createStory{
+    background-color: rgb(243, 243, 243);
+    padding: 2%;
+}
+.postsContainer .postsBody .createStory form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.postsContainer .postsBody .createStory form input{
+    height: 30px;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.postsContainer .postsBody .createStory form textarea{
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+.postsContainer .postsBody .createStory form button{
+    width:150px;
+    height: 40px;
+    border:none;
+    background-color: seagreen;
+    color: white;
+    font-size: 15px;
+}
+.postsContainer .postsBody .createStory form button:hover{
+    cursor: pointer;   
+}
+.postsContainer .stories .story{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    overflow: scroll;
+    padding: 5%;
+    background-color:rgb(243, 243, 243);  
+    margin-bottom:20px;
+    border-radius: 25px;
+    height: 250px;
+}
+.postsContainer .stories .story h4{
+    color:gray;
+}
+
